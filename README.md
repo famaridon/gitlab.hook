@@ -4,15 +4,15 @@ This is a simple web server to handel gitlab hooks (actualy only system hooks).
 
 # Project structure
 
-# gitlab.hook.server
+## gitlab.hook.server
 
 A simple SpringBoot server base on Jetty.
 System hook is located at http://localhost/system/trigger
 
-# gitlab.hook.api
+## gitlab.hook.api
 
 All GitLab hooks query objects.
-## System :
+### System :
 - GroupCreateEvent
 - GroupDestroyEvent
 - KeyCreateEvent
@@ -26,13 +26,13 @@ All GitLab hooks query objects.
 - UserRemoveFromGroupEvent
 - UserRemoveFromTeamEvent
 
-## Web :
+### Web :
 
-# gitlab.hook.sdk
+## gitlab.hook.sdk
 
 All needed interfaces to extend server.
 
-# gitlab.hook.ldap
+## gitlab.hook.ldap
 
 A simple exemple
 
