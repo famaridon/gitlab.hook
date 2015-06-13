@@ -7,6 +7,10 @@ This is a simple web server to handel gitlab hooks (actualy only system hooks).
 ## gitlab.hook.server
 
 A simple SpringBoot server base on Jetty.
+### How to start 
+```
+java -jar gitlab.hook.server.jar 
+```
 System hook is located at http://localhost/system/trigger
 
 ## gitlab.hook.api
