@@ -31,6 +31,9 @@ All GitLab hooks query objects.
 ## gitlab.hook.sdk
 
 All needed interfaces to extend server.
+To enable/disable extended features simply go to application.properties add edit 
+
+**com.famaridon.gitlab.hook-listener-packages[0]** property
 
 ## gitlab.hook.ldap
 
