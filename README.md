@@ -26,4 +26,14 @@ All GitLab hooks query objects.
 - UserRemoveFromGroupEvent
 - UserRemoveFromTeamEvent
 
+## Web :
+
+# gitlab.hook.sdk
+
+All needed interfaces to extend server.
+
+# gitlab.hook.ldap
+
+A simple exemple
+
 
