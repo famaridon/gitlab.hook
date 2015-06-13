@@ -33,7 +33,7 @@ All GitLab hooks query objects.
 All needed interfaces to extend server.
 
 ### Create extended features 
-It's realy easy to create new hoot listener create your own classe and extend **HookEventListener<T>** where is the event query type.
+It's realy easy to create new hoot listener create your own classe and extend **HookEventListener\<T\>** where T is the event query type.
 
 Your class :
 - should be thread safe
