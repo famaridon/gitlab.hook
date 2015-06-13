@@ -31,9 +31,18 @@ All GitLab hooks query objects.
 ## gitlab.hook.sdk
 
 All needed interfaces to extend server.
-To enable/disable extended features simply go to application.properties add edit 
 
-**com.famaridon.gitlab.hook-listener-packages[0]** property
+### Create extended features 
+It's realy easy to create new hoot listener create your own classe and extend **HookEventListener<T>** where is the event query type.
+
+Your class :
+- should be thread safe
+- can be a spring managed bean.
+
+### Enable/Disable extended features 
+To enable/disable extended features simply go to application.properties and add or remove properties like **com.famaridon.gitlab.hook-listener-packages[0]**.
+
+
 
 ## gitlab.hook.ldap
 
